@@ -20,10 +20,10 @@ int main()
     // PERSONAL DATA
     printf("     == PERSONAL CARD ==  \n");
     printf("┌─────────────────────────────┐\n");
-    printf("│Name: %s                    │\n", name);
-    printf("│Age: %d                      │\n", age);
+    printf("│Name: %-23s│\n", name);
+    printf("│Age: %-24d│\n", age);
     printf("│GPA: %.2f                    │\n", gpa);
-    printf("│Major: %s                    │\n", major);
+    printf("│Major: %-22s│\n", major);
     printf("└─────────────────────────────┘\n");
     return 0;
 }

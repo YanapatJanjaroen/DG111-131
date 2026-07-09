@@ -23,15 +23,15 @@ int main()
     // CHARACTER STATE
     printf("\n== Character Sheet ==\n");
     printf("╔═════════════════════════════╗\n");
-    printf("║ Name: %s                   ║\n", Character_Name);
+    printf("║ Name: %-22s║\n", Character_Name);
     printf("╠═════════════════════════════╣\n");
-    printf("║ Level: %d                   ║\n", Level);
-    printf("║ HP: %d                      ║\n", Max_Hp);
-    printf("║ ATk: %d                     ║\n", Attack_Power);
-    printf("║ DEF: %d                     ║\n", Defense);
+    printf("║ Level: %-21d║\n", Level);
+    printf("║ HP: %-24d║\n", Max_Hp);
+    printf("║ ATk: %-23d║\n", Attack_Power);
+    printf("║ DEF: %-23d║\n", Defense);
     printf("╠═════════════════════════════╣\n");
     printf("║ Hp Bar: ████████  100%      ║\n");
-    printf("║ Power Score: %d             ║\n", (Attack_Power * 2 + Defense + Max_Hp) / 2);
+    printf("║ Power Score: %-15d║\n", (Attack_Power * 2 + Defense + Max_Hp) / 2);
     printf("╚═════════════════════════════╝\n");
 
     return 0;
