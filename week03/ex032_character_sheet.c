@@ -23,7 +23,7 @@ int main()
     // CHARACTER STATE
     printf("\n== Character Sheet ==\n");
     printf("╔═════════════════════════════╗\n");
-    printf("║ Name: %-22s║\n", Character_Name);
+    printf("║ %-28s║\n", Character_Name);
     printf("╠═════════════════════════════╣\n");
     printf("║ Level: %-21d║\n", Level);
     printf("║ HP: %-24d║\n", Max_Hp);
