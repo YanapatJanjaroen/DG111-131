@@ -1,0 +1,6 @@
+#complied output
+*.exe
+*.out
+*.o
+*.obj
+*.a
