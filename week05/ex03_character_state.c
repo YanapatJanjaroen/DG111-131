@@ -49,6 +49,13 @@ int main()
     printf("Attack Count: %d\n\n", attack_count);
 
     printf("=== Character Status ===\n");
+    int filled = hp * 10 / max_hp;
+    printf("HP : [");
+    for (int i = 0; i < 10; i++)
+    {
+        printf(i < filled ? "█" : "-");
+    }
+    printf("] %d/%d", hp, max_hp);
     printf("State: ");
 
     if (hp <= 0)
